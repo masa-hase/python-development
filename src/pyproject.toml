@@ -10,3 +10,12 @@ dev = [
     "mypy>=1.14.0",
     "ruff>=0.8.4",
 ]
+
+[tool.ruff]
+select = ["E","F","N"]
+extend-select = ["I"]
+fix = true
+
+[tool.ruff.format]
+docstring-code-format = true
+quote-style = "double"
