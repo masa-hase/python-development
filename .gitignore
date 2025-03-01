@@ -172,3 +172,6 @@ cython_debug/
 
 # .DS_Store file
 .DS_Store
+
+# uv.lock file
+**/uv.lock
